@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Frijole';
+
+}
+body {
+  background: url(https://wallpaperaccess.com/full/415834.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+
+
+}
+.landing-page {
+  color: whitesmoke;
+
+}
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 8px;
+  color: #d1d1d1;
+  transition: color 0.3s;
+  padding: 2vw;
+  outline: none;
+  font-size: 24px;
+  font-family: 'Eater' ;
+  
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  cursor: pointer;
+  animation: tada;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  color: rgb(238, 160, 14);
+  font-weight: bolder;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: whitesmoke;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 32px;
+  width: 32px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);  opacity: 0.8;
+  padding: 2.5em 1.5em 1em;
+  font-size: 2.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.landing-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-page {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10vw 15vw;
+  color: aliceblue;
+}
+.about-page p {
+  font-family: 'Rationale';
+  font-size: 34px;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.5em;
+
+}
+
+.projects-grid {
+  display: flex;
+}
+
+
+
+/* contact page css */
+
+.contact-body {
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 10vw;
+  color: white;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  opacity: 0.9;
+  color: black;
+  margin-bottom: 5vw;
+  border: none;
+}
+.contact-grid img {
+  margin-top: 2vw;
+}
+
+.contact-grid h2 {
+  font-family: 'Federant';
+}
+
+.contact-grid p {
+  font-family: 'Federant';
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 44px;
+  padding-right: 3rem;
+  margin-left: 4vw;
+}
+
+
+/* contact page css */
+
+.my-icon {
+  height: 180px;
+  width: auto;
+  border: 2px solid yellow;
+  position:fixed;
+  top: 0;
+  left: 0;
+  border-radius:50%;
+  margin: 1vw;
+}
+
+.banner-text {
+  background-color: transparent;
+  opacity: 1;
+  width: 75%;
+  color: whitesmoke;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "Federant";
+  padding-top: 15vw;
+
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  color:whitesmoke;
+  font-family: 'Frijole' ;
+  
+}
+.banner-text h2 {
+  
+  color:whitesmoke;
+  font-family: 'Frijole';
+}
+.banner-text hr {
+  border-top: 5px dotted whitesmoke;
+  width: 80%;
+  margin: auto;
+}
+
+.banner-text p {
+  color:whitesmoke;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.social-links i:hover {
+  animation: heartBeat;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
