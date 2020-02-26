@@ -34,7 +34,7 @@ class ContactPage extends Component {
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '24px', fontFamily: 'Anton' }}>
+                                    <ListItemContent style={{ fontSize: '24px', fontFamily: 'Rationale' }}>
                                         <i className="fa fa-skype" aria-hidden="true" />
                                         live:hgundogdu53
                                     </ListItemContent>

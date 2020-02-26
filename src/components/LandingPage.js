@@ -1,23 +1,8 @@
 import React from 'react';
-import { slide as Menu } from "react-burger-menu";
 
 function LandingPage() {
     return (
         <div className="landing-page" style={{ width: '100%', margin: 'auto' }}>
-            <Menu right>
-                <a className="menu-item" href="/">
-                    Home
-                </a>
-                <a className="menu-item" href="/aboutme">
-                    AboutMe
-                 </a>
-                <a className="menu-item" href="/projects">
-                    Projects
-                 </a>
-                <a className="menu-item" href="/Contact">
-                    Contact
-                 </a>
-            </Menu>
             <img
                 src="https://github.com/hgundogdu53/myPortfolio-hg/blob/master/my%20icon.png?raw=true"
                 alt="my-icon"
@@ -44,7 +29,7 @@ function LandingPage() {
                 <a href="https://twitter.com/hgundogdu53" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
-                {/* Youtube */}
+                {/* MovieX */}
                 <a href="https://moviex.now.sh" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-film" aria-hidden="true" />
                 </a>
