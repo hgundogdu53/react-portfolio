@@ -3,22 +3,19 @@
 }
 
 body {
-  background: url(https://wallpaperaccess.com/full/415834.jpg) no-repeat center center fixed; 
+  background: url(https://wallpaperaccess.com/full/415834.jpg) no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Frijole';
-
+  font-family: "Megrim", cursive;
 }
 .App {
   text-align: center;
-
-
 }
 .landing-page {
   color: whitesmoke;
-
 }
 
 #page-wrap {
@@ -37,9 +34,10 @@ body {
   transition: color 0.3s;
   padding: 2vw;
   outline: none;
-  font-size: 24px;
-  font-family: 'Nosifer' ;
-  
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Megrim", cursive;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px black;
 }
 
 /* Change color on hover */
@@ -82,7 +80,8 @@ body {
 
 /* General sidebar styles */
 .bm-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);  opacity: 0.8;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  opacity: 0.8;
   padding: 2.5em 1.5em 1em;
   font-size: 2.15em;
 }
@@ -102,8 +101,6 @@ body {
   background: rgba(0, 0, 0, 0.3);
 }
 
-
-
 .landing-page {
   display: flex;
   flex-wrap: wrap;
@@ -116,7 +113,7 @@ body {
   color: whitesmoke;
 }
 .about-page p {
-  font-family: 'Rationale';
+  font-family: "Rationale";
   font-size: 34px;
   padding: 10px;
   margin: 10px;
@@ -125,6 +122,7 @@ body {
   animation-duration: 4s;
   animation-delay: 0.4s;
   animation-iteration-count: 1;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px navy;
 }
 
 .projects-grid {
@@ -132,9 +130,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-	margin: 5vw 3vw 3vw 5vw;
-	min-width: 300px;
-  font-family: 'Rationale';
+  margin: 5vw 3vw 3vw 5vw;
+  min-width: 300px;
+  font-family: "Rationale";
 }
 
 .projects-grid .card-text {
@@ -145,10 +143,10 @@ body {
 /* contact page css */
 
 .contact-body {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   margin: auto;
-  font-family: 'Nosifer';
+  font-family: "Nosifer";
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -174,14 +172,15 @@ body {
 }
 
 .contact-grid h2 {
-  font-family: 'Nosifer';
-  
+  font-family: "Megrim", cursive;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #000, 1px 1px 2px navy;
 }
 .contact-list i {
   font-size: 36px;
 }
 .contact-grid p {
-  font-family: 'Nosifer';
+  font-family: "Megrim", cursive;
   font-weight: bold;
 }
 
@@ -192,7 +191,7 @@ body {
 }
 
 .contact-list {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -201,17 +200,16 @@ body {
   margin-left: 5vw;
 }
 
-
 /* contact page css */
 
 .my-icon {
   height: 180px;
   width: auto;
-  border: 2px solid rgb(238, 160, 14);
-  position:fixed;
+  border: 2px solid rgba(238, 160, 14, 0.849);
+  position: fixed;
   top: 0;
   left: 0;
-  border-radius:50%;
+  border-radius: 50%;
   margin: 1vw;
 }
 
@@ -222,34 +220,38 @@ body {
   color: whitesmoke;
   margin: auto;
   border-radius: 10px;
-  font-family: "Federant";
+  font-family: "Megrim", cursive;
   padding-top: 15vw;
-
 }
 
 .banner-text h1 {
   font-size: 48px;
-  color:whitesmoke;
-  font-family: 'Frijole' ;
-  
+  color: whitesmoke;
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px navy;
 }
 .banner-text h2 {
   font-size: 36px;
-  color:whitesmoke;
-  font-family: 'Frijole';
+  color: whitesmoke;
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px navy;
 }
 .banner-text hr {
   border-top: 5px dotted whitesmoke;
   width: 80%;
   margin: auto;
+  font-family: "Megrim", cursive;
 }
 
 .banner-text p {
-  color:whitesmoke;
-  font-size: 20px;
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px navy;
+  font-size: 26px;
   padding: 1em;
-  font-family: 'Frijole';
-
+  line-height: 2em;
 }
 
 .social-links {
@@ -272,107 +274,103 @@ body {
   animation-iteration-count: infinite;
 }
 
-@media screen and (min-width:240px) and (max-width:512px) {
+@media screen and (min-width: 240px) and (max-width: 512px) {
+  .bm-item {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .bm-burger-button {
+    width: 24px;
+    height: 18px;
+    right: 32px;
+    top: 36px;
+  }
+  .bm-cross-button {
+    height: 28px;
+    width: 26px;
+  }
+  .bm-menu {
+    padding: 5em 0.1em 3em;
+    font-size: 1.8em;
+  }
+  .App .bm-menu-wrap {
+    width: 40vw !important;
+  }
 
-.bm-item {
-  padding: 20px;
-  font-size: 16px;
-}
-.bm-burger-button {
-  width: 24px;
-  height: 18px;
-  right: 32px;
-  top: 36px;
-}
-.bm-cross-button {
-  height: 28px;
-  width: 26px;
-}
-.bm-menu {
-  padding: 5em 0.1em 3em;
-  font-size: 1.8em;
-}
-.App .bm-menu-wrap {
-  width: 40vw !important;
-}
+  .about-page {
+    padding-top: 25vw;
+    margin: 0;
+  }
 
-.about-page {
-  padding-top: 25vw;
-  margin: 0;
-}
+  .about-page p {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
 
-.about-page p {
-  font-size: 20px;
-  padding: 0;
-  margin: 0;
-}
+  .projects-grid {
+    width: 80px;
+    margin: 15vw 2vw 2vw 3vw;
+  }
+  .projects-grid .card-text {
+    font-size: 16px;
+    line-height: 1.1;
+  }
 
-.projects-grid {
-  width: 80px;
-  margin: 15vw 2vw 2vw 3vw;
-}
-.projects-grid .card-text {
-  font-size: 16px;
-  line-height: 1.1;
-}
+  .contact-body {
+    padding-top: 18vw;
+  }
+  .contact-list {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .contact-grid {
+    width: 85%;
+    margin-bottom: 1vw;
+  }
 
-.contact-body {
-  padding-top: 18vw;
-}
-.contact-list {
-  padding-right: 0;
-  margin-left: 0;
-}
-.contact-grid {
-  width: 85%;
-  margin-bottom: 1vw;
-}
+  .contact-grid img {
+    height: 200px;
+    margin-top: 2vw;
+  }
 
-.contact-grid img {
-  height: 200px;
-  margin-top: 2vw;
-}
+  .contact-grid i {
+    font-size: 18px;
+  }
+  .contact-grid h2 {
+    font-size: 24px;
+  }
+  .contact-grid hr {
+    border-top: 3px dotted black;
+    width: 70%;
+    margin-top: -20px;
+  }
 
-.contact-grid i {
-  font-size: 18px;
+  .my-icon {
+    height: 100px;
+    margin: 5vw;
+  }
 
-}
-.contact-grid h2 {
-  font-size: 24px;
+  .banner-text {
+    padding-top: 50vw;
+  }
 
-}
-.contact-grid hr {
-  border-top: 3px dotted black;
-  width: 70%;
-  margin-top: -20px;
-}
-
-.my-icon {
-  height:100px;
-  margin: 5vw;
-}
-
-.banner-text {
-  padding-top: 50vw;
-}
-
-.banner-text h1 {
-  font-size: 28px;
-}
-.banner-text h2 {
-  font-size: 22px;
-}
-.banner-text p {
-  font-size: 14px;
-}
-.social-links i {
-  font-size: 3em;
-  padding: 5px;
+  .banner-text h1 {
+    font-size: 28px;
+  }
+  .banner-text h2 {
+    font-size: 22px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  .social-links i {
+    font-size: 3em;
+    padding: 5px;
+  }
 }
 
-}
-
-@media screen and (min-width:513px) and (max-width:1096px) {
+@media screen and (min-width: 513px) and (max-width: 1096px) {
   .bm-item {
     padding: 20px;
     font-size: 24px;
@@ -394,12 +392,12 @@ body {
   .App .bm-menu-wrap {
     width: 40vw !important;
   }
-  
+
   .about-page {
     padding-top: 25vw;
     margin: 0;
   }
-  
+
   .about-page p {
     font-size: 36px;
     padding: 0;
@@ -409,7 +407,7 @@ body {
     font-size: 19px;
     line-height: 1.2;
   }
- 
+
   .contact-body {
     padding-top: 24vw;
   }
@@ -421,35 +419,34 @@ body {
     width: 90%;
     margin-bottom: 1vw;
   }
-  
+
   .contact-grid img {
     height: 300px;
     margin-top: 2vw;
   }
-  
+
   .contact-grid i {
     font-size: 32px;
-  
   }
   .contact-grid h2 {
     font-size: 30px;
-  
   }
   .contact-grid hr {
     border-top: 3px dotted black;
     width: 80%;
     margin-top: -20px;
   }
-  
+
   .my-icon {
-    height:180px;
+    height: 160px;
+    width: auto;
     margin: 5vw;
   }
-  
+
   .banner-text {
     padding-top: 40vw;
   }
-  
+
   .banner-text h1 {
     font-size: 36px;
   }
@@ -463,6 +460,4 @@ body {
     font-size: 5em;
     padding: 5px;
   }
-
-
 }
