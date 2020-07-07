@@ -3,12 +3,18 @@
 }
 
 body {
-  background: url(https://wallpaperaccess.com/full/415834.jpg) no-repeat center
-    center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #ffa17f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00223e,
+    #ffa17f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00223e,
+    #ffa17f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-family: "Megrim", cursive;
 }
 .App {
@@ -47,7 +53,7 @@ body {
   animation-duration: 2s;
   animation-delay: 0;
   animation-iteration-count: infinite;
-  color: rgb(238, 160, 14);
+  color: #ffa17f;
   font-weight: bolder;
 }
 
@@ -64,7 +70,7 @@ body {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: whitesmoke;
+  background: #00223e;
 }
 
 /* Position and sizing of clickable cross button */
@@ -75,12 +81,22 @@ body {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: #ffa17f;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #859398,
+    #283048
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #859398,
+    #283048
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;
   padding: 2.5em 1.5em 1em;
   font-size: 2.15em;
@@ -205,7 +221,7 @@ body {
 .my-icon {
   height: 180px;
   width: auto;
-  border: 2px solid rgba(238, 160, 14, 0.849);
+  border: 2px solid #ffa17f;
   position: fixed;
   top: 0;
   left: 0;
@@ -263,7 +279,7 @@ body {
 
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 3.5em;
   padding: 8px;
 }
 
